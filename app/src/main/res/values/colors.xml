@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFCA19</color>
+    <color name="colorPrimaryDark">#FFCA19</color>
+    <color name="colorAccent">#FFCA19</color>
+    <color name="splashBackColor">#FFFFFF</color>
+    <color name="deleteColor">#F10E0E</color>
+    <color name="archiveColor">#08A10F</color>
+</resources>

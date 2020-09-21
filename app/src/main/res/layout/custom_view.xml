@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardElevation="10dp"
+    android:elevation="10dp"
+    app:cardCornerRadius="10dp">
+    
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/itemID"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:fontFamily="@font/amiko_semibold"
+            android:paddingTop="5dp"
+            android:paddingBottom="3dp"
+            android:text="Item"
+            android:textColor="#000000"
+            android:textSize="23dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/noteID"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bree_serif"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:text="Note"
+            android:textSize="18dp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="@id/itemID"
+            app:layout_constraintStart_toStartOf="@id/itemID"
+            app:layout_constraintTop_toBottomOf="@+id/itemID" />
+
+        <TextView
+            android:id="@+id/priceID"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko_semibold"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:text="Price"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="@id/noteID"
+            app:layout_constraintStart_toStartOf="@id/noteID"
+            app:layout_constraintTop_toBottomOf="@id/noteID" />
+
+        <TextView
+            android:id="@+id/dateID"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:padding="4dp"
+            android:text="Date"
+            android:textColor="#000000"
+            android:textSize="10dp"
+            android:textStyle="italic"
+            app:layout_constraintStart_toEndOf="@id/noteID"
+            app:layout_constraintTop_toTopOf="@id/itemID" />
+        
+        
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    
+</com.google.android.material.card.MaterialCardView>
